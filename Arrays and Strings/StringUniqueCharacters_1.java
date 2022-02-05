@@ -25,7 +25,7 @@ public class StringUniqueCharacters_1 {
     }
 
 
-    public static boolean isUnique_Set(String s1) {  //O(N)
+    public static boolean isUnique_Set(String s1) {
         Set<Character> findChars = new HashSet<>(); {
             for(char c: s1.toCharArray())
             {
